@@ -1,0 +1,70 @@
+@import @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+/* entire div section */
+.card1{
+    background: white;
+    padding: 20px;
+    width: 550px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+/* image section */
+img{
+    width: 552px;
+    height: 311px;
+    border-radius: 20px;
+}
+
+/* title */
+.title{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    width: 282;
+    height: 84;
+}
+
+
+/* table section */
+
+
+/* rupees coloum */
+.r4500{
+    padding: 0 15px;
+    color: #6674cc;
+    font-weight: bold;
+    width: 51px;
+    height: 28;
+    font-family: 'Rubik', sans-serif;
+    
+}
+/* 6999 coloumm */
+.r6999{
+    padding: 0 15px;
+    color: #777c85
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+/* button coloum */
+.but{
+   padding-right: 15px;
+}
+
+
+
+/* buton element*/
+.button{
+    background-color: #03e6a9  ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width:45;
+    height: 45;
+    padding:9px
+}
