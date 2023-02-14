@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 270px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    gap: 10px;
+    
+}
+
+img{
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.coffemug{
+    letter-spacing: 4px;
+    font-size: small;
+    padding-top: 15px;
+}
+
+.title{
+    
+        font-weight: 800;
+        font-size: 1.7rem;
+}
+
+.desc{
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(99, 99, 99, 0.925);
+}
+
+
+.desc{
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price{
+    color: rgb(48, 204, 0);
+}
+
+.new-price{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.old-price{
+    font-size: small;
+    text-decoration: line-through;
+    color: black;
+}
+
+.add{
+    
+        background-color: rgba(48,204,0);
+        color: white;
+        height: 2rem;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        gap: 10px;
+        border-radius: 7px;
+    
+}
